@@ -1,0 +1,122 @@
+/* Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* About Section */
+.about {
+  background-color: #f9f9f9;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+/* Content Styling */
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.style {
+  margin-bottom: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content ul li i {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+/* Images Styling */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-4 {
+  border-radius: 10px;
+}
+
+.position-relative {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-4 {
+  margin-top: 30px;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+/* Column and Row Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-lg-6 {
+  flex: 1;
+  width: 100%;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+}
+
+/* Header Section */
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #fff;
+}

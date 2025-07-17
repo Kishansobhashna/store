@@ -1,0 +1,56 @@
+/* Background Styling */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/images/bi.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Signup Box */
+.signup-box {
+  padding: 30px;
+  width: 350px;
+}
+
+/* Form Elements */
+.center-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group1 {
+  display: grid;
+  justify-items: stretch;
+  margin-bottom: 15px;
+}
+
+/* Error Text */
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Button */
+.signup-btn {
+  width: 90px;
+  height: 40px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn:disabled {
+  background-color: #ccc;
+}
+
+/* Sign In Link */
+.toggle-link {
+  color: #007BFF;
+  text-decoration: underline;
+}

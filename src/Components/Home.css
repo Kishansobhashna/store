@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* Container for products */
+.product-store {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+.display-header {
+  margin-bottom: 30px;
+}
+
+.btn-right a {
+  background-color: #007bff;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-right a:hover {
+  background-color: #0056b3;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive Padding */
+.padding-small {
+  padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .btn-right a {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

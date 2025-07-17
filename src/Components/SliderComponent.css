@@ -1,0 +1,21 @@
+.slider-container {
+    width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;/* Centers the slider */
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide img {
+    width: 90%;
+  height: 100vh; /* Full viewport height if desired */
+  object-fit: cover; /* Makes sure image covers the area without distortion */
+  display: block; 
+  margin-left: 80px;
+}
+  
